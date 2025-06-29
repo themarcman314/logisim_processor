@@ -10,7 +10,7 @@ The recomended outline for this project is described in the `Memento_Processeur_
 Actuellement les blocs suivants du processeur ont été réalisés :
 
 ## Unité Arithmétique et Logique (UAL) 
-- [ ] Une UAL capable de réaliser les opérations suivantes : 
+- [x] Une UAL capable de réaliser les opérations suivantes : 
   - [x] Addition 
   - [x] Soustraction 
   - [x] ET logique (AND) 
