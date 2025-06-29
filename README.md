@@ -10,7 +10,7 @@ The recomended outline for this project is described in the `Memento_Processeur_
 Actuellement les blocs suivants du processeur ont été réalisés :
 
 ## Unité Arithmétique et Logique (UAL) 
-- Une UAL capable de réaliser les opérations suivantes : 
+- [ ] Une UAL capable de réaliser les opérations suivantes : 
   - [x] Addition 
   - [x] Soustraction 
   - [x] ET logique (AND) 
@@ -18,12 +18,12 @@ Actuellement les blocs suivants du processeur ont été réalisés :
   - [x] Décalage à gauche (SHL) 
   - [x] Décalage à droite (SHR) 
 ## Registres 
-- [ ] Deux registres principaux (A et B) de 8 bits chacun. 
-- [ ] Un registre de sortie (OUT) de 8 bits. 
+- [x] Deux registres principaux (A et B) de 8 bits chacun. 
+- [x] Un registre de sortie (OUT) de 8 bits. 
 ## Unité de Contrôle 
 - [ ] Une unité de contrôle avec un décodeur pour interpréter les instructions. 
 - [ ] Un ensemble d’instructions de base (chargement, stockage, addition, soustraction, etc.). 
 ## Mémoire 
-- [ ] Une mémoire de 256 octets (8 bits par case mémoire). 
+- [x] Une mémoire de 256 octets (8 bits par case mémoire). 
 ## Bus de Données 
 - [ ] Un bus de données de 8 bits reliant les différentes unités. 
