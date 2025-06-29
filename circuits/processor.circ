@@ -296,15 +296,18 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(160,190)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="a"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(160,230)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="b"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(400,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="o"/>
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
@@ -322,15 +325,18 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(180,170)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="a"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(180,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="b"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(320,190)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="o"/>
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
@@ -346,18 +352,94 @@
     <a name="circuit" val="shl8"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(210,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="a"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(210,180)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(240,190)" name="NoConnect"/>
+    <comp lib="0" loc="(440,130)" name="Ground"/>
+    <comp lib="0" loc="(440,170)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="o"/>
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(440,170)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <wire from="(230,100)" to="(400,100)"/>
+    <wire from="(230,110)" to="(390,110)"/>
+    <wire from="(230,120)" to="(380,120)"/>
+    <wire from="(230,130)" to="(370,130)"/>
+    <wire from="(230,140)" to="(360,140)"/>
+    <wire from="(230,150)" to="(350,150)"/>
+    <wire from="(230,160)" to="(340,160)"/>
+    <wire from="(230,170)" to="(240,170)"/>
+    <wire from="(240,170)" to="(240,190)"/>
+    <wire from="(340,160)" to="(340,250)"/>
+    <wire from="(340,250)" to="(420,250)"/>
+    <wire from="(350,150)" to="(350,240)"/>
+    <wire from="(350,240)" to="(420,240)"/>
+    <wire from="(360,140)" to="(360,230)"/>
+    <wire from="(360,230)" to="(420,230)"/>
+    <wire from="(370,130)" to="(370,220)"/>
+    <wire from="(370,220)" to="(420,220)"/>
+    <wire from="(380,120)" to="(380,210)"/>
+    <wire from="(380,210)" to="(420,210)"/>
+    <wire from="(390,110)" to="(390,200)"/>
+    <wire from="(390,200)" to="(420,200)"/>
+    <wire from="(400,100)" to="(400,190)"/>
+    <wire from="(400,190)" to="(420,190)"/>
+    <wire from="(420,130)" to="(420,180)"/>
+    <wire from="(420,130)" to="(440,130)"/>
   </circuit>
   <circuit name="shr8">
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="shr8"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-  </circuit>
-  <circuit name="add8">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="add8"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(260,190)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="a"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(260,190)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(290,90)" name="NoConnect"/>
+    <comp lib="0" loc="(360,200)" name="Ground"/>
+    <comp lib="0" loc="(390,110)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="o"/>
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(390,110)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <wire from="(280,120)" to="(370,120)"/>
+    <wire from="(280,130)" to="(370,130)"/>
+    <wire from="(280,140)" to="(370,140)"/>
+    <wire from="(280,150)" to="(370,150)"/>
+    <wire from="(280,160)" to="(370,160)"/>
+    <wire from="(280,170)" to="(370,170)"/>
+    <wire from="(280,180)" to="(370,180)"/>
+    <wire from="(280,90)" to="(280,110)"/>
+    <wire from="(280,90)" to="(290,90)"/>
+    <wire from="(360,190)" to="(360,200)"/>
+    <wire from="(360,190)" to="(370,190)"/>
   </circuit>
   <circuit name="half_add">
     <a name="appearance" val="logisim_evolution"/>
